@@ -11,7 +11,7 @@ export default function Home() {
                         <div className="home-prev-text">
                             <p className="prev-header">Лучшая <b>пицца</b> в вашем городе</p>
                             <p className="prev-text">Откройте для себя мир настоящей пиццы! Мы предлагаем разнообразные рецепты — от традиционной маргариты до уникальных авторских блюд.</p>
-                            <button className="prev-check-menu">Просмотреть меню</button>
+                            <button className="prev-check-menu" onClick={() => window.location.href="/menu"}>Просмотреть меню</button>
                         </div>
                         <div className="home-prev-pizza-img">
                             <img src="./img/home/pizza.png" alt="" />
