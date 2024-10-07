@@ -10,6 +10,7 @@ export default function Footer() {
                             <h3>Пиццерия</h3>
                             <Link to="/">О нас</Link><br />
                             <Link to="/menu">Меню</Link><br />
+                            <Link to="/location">Локация</Link>
                         </li>
                         <li className="footer-column">
                             <h3>Проект</h3>

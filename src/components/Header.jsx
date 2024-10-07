@@ -21,8 +21,8 @@ export default function Header() {
                     <nav className="header-menu" id="menu">
                         <ul className="header-list">
                             <HeaderLink href="/" name="Главная" />
-                            <HeaderLink href="/" name="Меню" />
-                            <HeaderLink href="/" name="Локация" />
+                            <HeaderLink href="/menu" name="Меню" />
+                            <HeaderLink href="/location" name="Локация" />
                         </ul>
                     </nav>
                     <div className="hamburger"></div>

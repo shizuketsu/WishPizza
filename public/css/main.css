@@ -81,7 +81,7 @@ header {
 
 .home-prev {
     padding-top: 240px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .home-prev-text {
@@ -129,10 +129,15 @@ header {
     background-color: #303030;
 }
 
+.pizza-header {
+    margin-top: 150px;
+}
+
 .home-pizza-list {
     display: flex;
+    margin-top: 60px;
     margin-bottom: 100px;
-    justify-content: left;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -141,6 +146,7 @@ header {
     border-radius: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 40px;
     text-align: center;
     cursor: pointer;
     transition: .3s transform;
@@ -159,23 +165,8 @@ header {
 }
 
 .home-pizza-item img {
-    width: 100px;
+    width: 150px;
     margin-bottom: 20px;
-}
-
-.delivery {
-    background-color: #ececec;
-}
-
-.delivery-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.delivery-content img {
-    max-width: 500px;
-    margin-left: 60px;
 }
 
 .whywe {
